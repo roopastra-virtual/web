@@ -1,0 +1,197 @@
+#navbarSupportedContent{
+    font-family: "adobe-garamond-pro", serif;
+    font-weight: 500;
+    font-size: large;
+    font-style: normal;
+    color: #24252a;
+    text-decoration: none;
+}
+
+header{
+    margin-top: 75px;
+    width: 100vw;
+    height: 91vh;
+    background-image: url('images/background-3.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+/* home image text */
+
+.centered-content {
+    height: calc(100vh - 60px);
+    display: flex; /* Enable flexbox */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+  }
+  
+.home {
+color: white;
+text-align: center;
+}
+
+.home h2 {
+font-size: 4vmin;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.home h1 {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 50 vmin;
+font-weight: 700;
+}
+
+.line {
+width: 190px;
+height: 5px;
+background: white;
+margin: 10px auto;
+border-radius: 25px;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 74px;
+}
+
+
+/* Events */
+event{
+    width: 100vw;
+    height: 100vh;
+}
+
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#wrapper {
+    width: 380px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    border-radius: 10px;
+    /* padding: 30px 40px; */
+    position: relative;
+    overflow: hidden;
+  }
+
+.event {
+    position: relative;
+    background-image: url('images/background-9.png'); 
+    background-size: cover;
+    background-position: center;
+    height: 91vh;
+    overflow: hidden;
+}
+
+
+/* buzz */
+
+.buzz {
+    position: relative;
+    background-image: url('images/background-7.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 91vh;
+    overflow: hidden;
+}
+
+#wrapper-buzz {
+    width: 500px;
+    background: rgba(255, 255, 255, 0.1);
+    /* border: 2px solid rgba(255, 255, 255, 0.2); */
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+
+/* Custom styles for the About Page */
+.about .container-fluid {
+    background-image: url('images/background-7.png');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.about .container {
+    max-width: 1200px;
+}
+
+/* Icons */
+.fas {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+
+.about {
+    position: relative;
+    background-image: url('images/background-7.png'); 
+    background-size: cover;
+    background-position: center;
+    height: 91vh;
+    overflow: hidden;
+}
+
+#wrapper-about {
+    width: auto;
+    background: rgba(255, 255, 255, 0.1);
+    /* border: 2px solid rgba(255, 255, 255, 0.2); */
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    padding: 30px 40px;
+    position: relative;
+    height: 91vh;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+/* Styling for Footer Links */
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    color: #007bff;
+}
+
+footer .fab:hover {
+    color: #007bff;
+}
+
+#custom-footer {
+    /* background-color:rgb(66,37,132); */
+    background-color: black;
+    color: white;
+    padding: 30px 0;
+}
